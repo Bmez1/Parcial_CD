@@ -26,7 +26,9 @@ def leer_JSON():
 
 def main():
     #crear_JSON(myDict)
-    print(type(leer_JSON()))
+    myDict = leer_JSON()
+    print(myDict['Apt'].keys())
+
 
 if __name__ == "__main__":
     main()

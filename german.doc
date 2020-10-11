@@ -32,7 +32,7 @@ been coded as integer.    This was the form used by StatLog.
 7.  Attribute description for german
 
 Attribute 1:  (qualitative)
-	       Status of existing checking account
+	       Status of existing checking account : Estado de la cuenta 										corriente existente
                A11 :      ... <    0 DM
 	       A12 : 0 <= ... <  200 DM
 	       A13 :      ... >= 200 DM /
@@ -40,7 +40,7 @@ Attribute 1:  (qualitative)
                A14 : no checking account
 
 Attribute 2:  (numerical)
-	      Duration in month
+	      Duration in month : Duración en meses
 
 Attribute 3:  (qualitative)
 	      Credit history
@@ -53,7 +53,7 @@ Attribute 3:  (qualitative)
 		    other credits existing (not at this bank)
 
 Attribute 4:  (qualitative)
-	      Purpose
+	      Purpose : propósito
 	      A40 : car (new)
 	      A41 : car (used)
 	      A42 : furniture/equipment
@@ -67,10 +67,10 @@ Attribute 4:  (qualitative)
 	      A410 : others
 
 Attribute 5:  (numerical)
-	      Credit amount
+	      Credit amount: Monto de crédito
 
 Attibute 6:  (qualitative)
-	      Savings account/bonds
+	      Savings account/bonds: Cuenta de ahorro / bonos
 	      A61 :          ... <  100 DM
 	      A62 :   100 <= ... <  500 DM
 	      A63 :   500 <= ... < 1000 DM
@@ -78,7 +78,7 @@ Attibute 6:  (qualitative)
               A65 :   unknown/ no savings account
 
 Attribute 7:  (qualitative)
-	      Present employment since
+	      Present employment since : Empleo actual desde
 	      A71 : unemployed
 	      A72 :       ... < 1 year
 	      A73 : 1  <= ... < 4 years  
@@ -86,10 +86,10 @@ Attribute 7:  (qualitative)
 	      A75 :       .. >= 7 years
 
 Attribute 8:  (numerical)
-	      Installment rate in percentage of disposable income
+	      Installment rate in percentage of disposable income: Tasa de 					pago a plazos en porcentaje de la renta disponible
 
 Attribute 9:  (qualitative)
-	      Personal status and sex
+	      Personal status and sex: Estado personal y sexo
 	      A91 : male   : divorced/separated
 	      A92 : female : divorced/separated/married
               A93 : male   : single
@@ -97,16 +97,16 @@ Attribute 9:  (qualitative)
 	      A95 : female : single
 
 Attribute 10: (qualitative)
-	      Other debtors / guarantors
+	      Other debtors / guarantors : Otros deudores / garantes
 	      A101 : none
 	      A102 : co-applicant
 	      A103 : guarantor
 
 Attribute 11: (numerical)
-	      Present residence since
+	      Present residence since : Residencia actual desde
 
 Attribute 12: (qualitative)
-	      Property
+	      Property : Propiedad
 	      A121 : real estate
 	      A122 : if not A121 : building society savings agreement/
 				   life insurance
@@ -114,25 +114,26 @@ Attribute 12: (qualitative)
 	      A124 : unknown / no property
 
 Attribute 13: (numerical)
-	      Age in years
+	      Age in years : Edad en años
 
 Attribute 14: (qualitative)
-	      Other installment plans 
+	      Other installment plans : Otros planes de pago
 	      A141 : bank
 	      A142 : stores
 	      A143 : none
 
 Attribute 15: (qualitative)
-	      Housing
+	      Housing : Alojamiento
 	      A151 : rent
 	      A152 : own
 	      A153 : for free
 
 Attribute 16: (numerical)
-              Number of existing credits at this bank
+              Number of existing credits at this bank:
+			Número de créditos existentes en este banco
 
 Attribute 17: (qualitative)
-	      Job
+	      Job : Trabajo
 	      A171 : unemployed/ unskilled  - non-resident
 	      A172 : unskilled - resident
 	      A173 : skilled employee / official
@@ -140,15 +141,16 @@ Attribute 17: (qualitative)
 		     highly qualified employee/ officer
 
 Attribute 18: (numerical)
-	      Number of people being liable to provide maintenance for
+	      Number of people being liable to provide maintenance for:
+Número de personas que están obligadas a proporcionar mantenimiento a
 
 Attribute 19: (qualitative)
-	      Telephone
+	      Telephone : Teléfono
 	      A191 : none
 	      A192 : yes, registered under the customers name
 
 Attribute 20: (qualitative)
-	      foreign worker
+	      foreign worker : trabajador extranjero
 	      A201 : yes
 	      A202 : no
 
@@ -172,4 +174,5 @@ the predicted classification.
 
 It is worse to class a customer as good when they are bad (5), 
 than it is to class a customer as bad when they are good (1).
+
 
