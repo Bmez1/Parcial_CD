@@ -78,9 +78,5 @@
     "Foreing Worker": {
         "A201": "si",
         "A202": "no"
-    },
-    "Apt":{
-        "1" : "Bueno",
-        "2" : "Malo"
     }
 }
